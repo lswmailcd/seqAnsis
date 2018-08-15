@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="AlignAlgorithms\MSA-GA-CUDA.cu">
+      <Filter>AlignAlgorithms\MSA_GA_CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="AlignAlgorithms\bitonicSort.cu">
+      <Filter>AlignAlgorithms\MSA_GA_CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AlignAlgorithms">
+      <UniqueIdentifier>{d1d4a448-bf95-4198-8a26-bee83cae01c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\MSA_GA_CUDA">
+      <UniqueIdentifier>{397224af-1d7e-49c4-9abf-c3d42a19ada2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\MSA_GA">
+      <UniqueIdentifier>{bfa741d3-87a3-49f4-b67e-1e49bc037fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{c0b06340-52ca-4375-8819-f95e4606c7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{86a79ac2-b627-4220-9661-fdde1319451a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{aebb6f00-3525-4282-8476-153d77da9fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMatrix">
+      <UniqueIdentifier>{1a6c431f-6432-4951-8708-d48ca328f3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\NWAlgorithm">
+      <UniqueIdentifier>{b075e655-9c27-4f13-89a0-d38af4a2ad10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\SWAlgorithm">
+      <UniqueIdentifier>{32fda657-762b-4271-be8a-4fae12db5659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\Blast">
+      <UniqueIdentifier>{9467a2a6-7e4f-4903-88dc-424bec9b8bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlignAlgorithms\SAGEP">
+      <UniqueIdentifier>{43cac312-c7d9-40d5-952f-9c803df13867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{f3306f6d-36d6-442d-8373-09e8fb57d7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{a75ff08c-53e5-4917-aa23-c723e43a8763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlignAlgorithms\MSA-GA-CUDA.h">
+      <Filter>AlignAlgorithms\MSA_GA_CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\MSA-GA.h">
+      <Filter>AlignAlgorithms\MSA_GA</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\AlignAlgorithmBase.h">
+      <Filter>AlignAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\AlignParams.h">
+      <Filter>AlignAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\AppException.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Common.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\EventLog.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\GlobalSpace.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Timer.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Utility.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FastaFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FileReader.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FileWriter.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\InFileStream.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\MSFFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\2DRect.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\2DSharp.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\2DSharpManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\2DText.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CursorControler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\PageControler.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SeqRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\SubMatrices.h">
+      <Filter>SubMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\SubMatrixManager.h">
+      <Filter>SubMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\Sequence.h">
+      <Filter>AlignAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\NWAlgorithm.h">
+      <Filter>AlignAlgorithms\NWAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SeqAnsis.h" />
+    <ClInclude Include="SeqAnsisDoc.h" />
+    <ClInclude Include="SeqAnsisView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="AlignAlgorithms\SWAlgorithm.h">
+      <Filter>AlignAlgorithms\SWAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\sortingNetworks_common.cuh">
+      <Filter>AlignAlgorithms\MSA_GA_CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignAlgorithms\sortingNetworks_common.h">
+      <Filter>AlignAlgorithms\MSA_GA_CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaMsagaInputDlg.h" />
+    <ClInclude Include="AlignAlgorithms\Header.h">
+      <Filter>AlignAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\PhylogeneticTree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlignAlgorithms\MSA-GA.cpp">
+      <Filter>AlignAlgorithms\MSA_GA</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignAlgorithms\AlignParams.cpp">
+      <Filter>AlignAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\EventLog.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\GlobalSpace.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\Timer.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\Utility.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FastaFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FileReader.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FileWriter.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\InFileStream.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\MSFFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\2DSharpManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\2DText.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CursorControler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\PageControler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SeqRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignAlgorithms\SubMatrixManager.cpp">
+      <Filter>SubMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignAlgorithms\Sequence.cpp">
+      <Filter>AlignAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignAlgorithms\NWAlgorithm.cpp">
+      <Filter>AlignAlgorithms\NWAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqAnsis.cpp" />
+    <ClCompile Include="SeqAnsisDoc.cpp" />
+    <ClCompile Include="SeqAnsisView.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="AlignAlgorithms\SWAlgorithm.cpp">
+      <Filter>AlignAlgorithms\SWAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\2DRect.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\2DSharp.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaMsagaInputDlg.cpp" />
+    <ClCompile Include="Tree\PhylogeneticTree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SeqAnsis.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\class_view.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\file_view.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\SeqAnsis.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\SeqAnsisDoc.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SeqAnsis.rc" />
+  </ItemGroup>
+</Project>
